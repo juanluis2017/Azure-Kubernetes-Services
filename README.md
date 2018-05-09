@@ -33,3 +33,12 @@ Upgrade version AKS
 
 ```az aks upgrade -n 'nombre-kubernetes-cluster' -g 'nombre-de-resource-group'  -k 1.8.2```
 
+
+Lista todos los contenedores alojados en el nodo incluyendo del cluster
+
+```kubectl get pods --all-namespaces```
+
+Lista todos los contenedores alojados en el nodo
+
+```kubectl get pods ```
+
